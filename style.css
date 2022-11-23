@@ -1,0 +1,38 @@
+h1 {
+    color: white;
+  }
+
+a:link, a:visited{
+  color: white;
+}
+
+.champion{
+  padding: 20px;
+  background-color: rgb(46, 45, 45);
+  transform: scale(1);
+}
+
+.champion a{
+  text-decoration: none;
+}
+
+.champion:hover{
+  background-color: rgb(31, 30, 30);
+  transform: scale(1.05);
+}
+
+.champion:hover a{
+  color: rgb(217, 255, 255);
+}
+
+.champion a img{
+  border: 2px solid white;
+
+}
+
+.champion a p{
+  padding: 0px;
+  margin: 0px;
+  
+}
+  
